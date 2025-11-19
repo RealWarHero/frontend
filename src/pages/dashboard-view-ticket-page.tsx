@@ -135,7 +135,7 @@ const DashboardViewTicketPage: React.FC = () => {
             </div>
             <div className="flex items-center gap-2">
               <DollarSign className="w-5 text-purple-200" />
-              <span className="font-semibold">{ticket.price}</span>
+              <span className="font-semibold">₹{ticket.price}</span>
             </div>
           </div>
 

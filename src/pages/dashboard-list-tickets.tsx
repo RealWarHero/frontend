@@ -82,7 +82,7 @@ const DashboardListTickets: React.FC = () => {
                 {/* Price */}
                 <div className="flex items-center gap-2">
                   <DollarSign className="h-5 w-5 text-gray-400" />
-                  <p className="font-medium">${ticketItem.ticketType.price}</p>
+                  <p className="font-medium">₹{ticketItem.ticketType.price}</p>
                 </div>
 
                 {/* Ticket ID */}

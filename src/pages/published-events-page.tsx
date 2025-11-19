@@ -126,7 +126,7 @@ const PublishedEventsPage: React.FC = () => {
                   <div className="flex justify-between items-center">
                     <h3 className="text-lg font-semibold">{ticketType.name}</h3>
                     <span className="text-xl font-bold ">
-                      ${ticketType.price}
+                      ₹{ticketType.price}
                     </span>
                   </div>
                 </CardHeader>
@@ -145,7 +145,7 @@ const PublishedEventsPage: React.FC = () => {
               <h2 className="text-2xl font-bold">{selectedTicketType?.name}</h2>
               <div className="mb-6">
                 <span className="text-3xl font-bold">
-                  ${selectedTicketType?.price}
+                  ₹{selectedTicketType?.price}
                 </span>
               </div>
               <div className="mb-6">

@@ -598,7 +598,7 @@ const DashboardManageEventPage: React.FC = () => {
                                 variant="outline"
                                 className="border-gray-600 text-white font-normal text-xs"
                               >
-                                ${ticketType.price}
+                                ₹{ticketType.price}
                               </Badge>
                             </div>
                             {ticketType.totalAvailable && (
